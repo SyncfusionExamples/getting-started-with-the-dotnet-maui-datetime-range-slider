@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sf="clr-namespace:Syncfusion.Maui.Sliders;assembly=Syncfusion.Maui.Sliders"
+             x:Class="MauiProject.MainPage">
+
+    <sf:SfDateTimeRangeSlider ShowLabels="True"
+                              Minimum="2023-04-01"
+                              Maximum="2024-04-01"
+                              RangeStart="2023-05-01"
+                              RangeEnd="2023-08-01"
+                              IntervalType="Months"
+                              Interval="2"
+                              DateFormat="MMM yy"
+                              ShowTicks="True"
+                              MinorTicksPerInterval="1"
+                              IsInversed="True"
+                              ShowDividers="True"
+                              StepDuration="0,2"
+                              Orientation="Vertical">
+        <sf:SfDateTimeRangeSlider.DividerStyle>
+            <sf:SliderDividerStyle ActiveRadius="4" InactiveRadius="6"/>
+        </sf:SfDateTimeRangeSlider.DividerStyle>
+        <sf:SfDateTimeRangeSlider.Tooltip>
+            <sf:SliderTooltip />
+        </sf:SfDateTimeRangeSlider.Tooltip>
+    </sf:SfDateTimeRangeSlider>
+    
+</ContentPage>
