@@ -1,10 +1,10 @@
 # Getting Started with the .NET MAUI DateTime Range Slider
 A quick-start project that helps you integrate a DateTime Range Slider control in the .NET MAUI application by adding the Syncfusion MAUI Sliders package from NuGet. This project contains simple code customizations like how to bind values, set minimum and maximum values with intervals, labels, tooltips, ticks, dividers, and change the orientation.
 
-Refer to the following documentation for the Syncfusion .NET MAUI Date Time Range Slider Control: 
+**Refer to the following documentation for the Syncfusion .NET MAUI Date Time Range Slider Control:** 
 https://help.syncfusion.com/maui/datetime-range-slider/getting-started
 
-Check out this GitHub example for the Syncfusion .NET MAUI DateTime Range Slider Control: 
+**Check out this GitHub example for the Syncfusion .NET MAUI DateTime Range Slider Control:** 
 https://github.com/syncfusion/maui-demos/tree/master/MAUI/Sliders
 
 ## Project prerequisites
